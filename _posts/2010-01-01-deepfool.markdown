@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "DeepFool"
+date:   2010-01-01
+categories: 
+type: "vnn"
+contributor: "fairflung"
+avatar: "⛺︎"
+attacktype : "white box"
+goals : "targeted"
+attacktime : "training"
+---
+
+- This algorithm iteratively modifies the input to cross the decision boundary. It’s designed to be as efficient as possible, making minimal changes to the input to cause a misclassification.
+
+# EXAMPLES
+

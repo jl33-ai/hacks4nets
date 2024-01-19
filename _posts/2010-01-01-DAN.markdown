@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "DAN"
+date:   2010-01-01
+categories: 
+type: "vnn"
+contributor: "moomoocow33"
+avatar: "♕"
+attacktype : "black box"
+goals : "non targeted"
+attacktime : "inference"
+---
+
+DAN gets it's own feature because of how iconic it is; ChatGPT was the first consumer-grade LLM, and DAN was the first ChatGPT jailbreak. 
+
+- The idea behind DAN was 
+- Dan is a type of prompt engineering 

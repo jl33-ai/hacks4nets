@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "name here"
+date:   2010-01-01
+categories: 
+type: "vnn"
+contributor: "Unnamed"
+avatar: ""
+attacktype : "black box"
+goals : "targeted"
+attacktime : "training"
+---
+

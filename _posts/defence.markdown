@@ -1,0 +1,1 @@
+There are various defense mechanisms to mitigate adversarial attacks, such as input preprocessing, adversarial training, and gradient masking. However, many defenses have their limitations, and the cat-and-mouse game between attackers and defenders continues.

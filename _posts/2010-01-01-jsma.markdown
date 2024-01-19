@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Jacbian-based Saliency Map Attack"
+date:   2010-01-01
+categories: 
+type: "vnn"
+contributor: "rwmj"
+avatar: "𝝙"
+attacktype : "white box"
+goals : "non targeted"
+attacktime : "training"
+---
+

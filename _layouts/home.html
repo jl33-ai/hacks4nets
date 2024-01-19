@@ -1,0 +1,102 @@
+---
+layout: default
+---
+{{ content }}
+{% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
+
+
+
+
+<h1>VANILLA NEURAL NETS</h1>
+<pre id="ascii-vnn"></pre>
+<br>
+{%- if site.posts.size > 0 -%}
+  <ul>
+    {%- for post in site.posts -%}
+      {%- if post.type == "vnn" -%}
+        <li>
+          {%- assign date_format = "%Y" -%}
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> [{{ post.date | date: date_format }}, {{post.avatar}}] 
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
+<br><hr>
+
+<h1>IMAGE GENERATION</h1>
+<pre id="ascii-image"></pre>
+<br>
+{%- if site.posts.size > 0 -%}
+  <ul>
+    {%- for post in site.posts -%}
+      {%- if post.type == "image" -%}
+        <li>
+          {%- assign date_format = "%Y" -%}
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> [{{ post.date | date: date_format }}, {{post.avatar}}] 
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
+<br><hr>
+
+<h1>LARGE LANGUAGE MODELS</h1>
+<pre id="ascii-llm"></pre>
+<br>
+{%- if site.posts.size > 0 -%}
+  <ul>
+    {%- for post in site.posts -%}
+      {%- if post.type == "llm" -%}
+        <li>
+          {%- assign date_format = "%Y" -%}
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> [{{ post.date | date: date_format }}, {{post.avatar}}] 
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
+<br><hr>
+
+<h1>TRADITIONAL MACHINE LEARNING</h1>
+<pre id="ascii-ml"></pre>
+<br>
+{%- if site.posts.size > 0 -%}
+  <ul>
+    {%- for post in site.posts -%}
+      {%- if post.type == "ml" -%}
+        <li>
+          {%- assign date_format = "%Y" -%}
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> [{{ post.date | date: date_format }}, {{post.avatar}}] 
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
+<br><hr>
+
+<h1>MODEL AGNOSTIC METHODS</h1>
+
+
+
+<!-- Should be matrix numbers-->
+
+
+
+
+<h1>Contributors</h1>
+
+{%- if site.posts.size > 0 -%}
+  <ul>
+    {%- assign unique_contributors = '' -%}
+    {%- for post in site.posts -%}
+      {%- unless unique_contributors contains post.contributor -%}
+        <li>{{ post.avatar }} {{ post.contributor }}</li>
+        {%- assign unique_contributors = unique_contributors | append: post.contributor | append: ' ' -%}
+      {%- endunless -%}
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
+
+<script src="/assets/animate-ascii.js"></script>
+

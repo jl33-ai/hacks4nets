@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<article class="life-hack-post">
+  <div align="center">
+    <em><strong>{{ page.title }}</strong></em>
+  </div>
+  <br>
+
+  <pre class="hack-desc">
+    <span class="keyword-attack-type">attack-type</span> : {{ page.attacktype }}
+    <span       class="keyword-goals">goals</span> :       {{ page.goals }}
+    <span        class="keyword-time">time</span> :        {{ page.attacktime }}
+  </pre>
+  
+
+  <div class="content">
+    {{ content }}
+  </div>
+
+  <footer>
+    <p>
+      Submitted by: <em> {{ page.author }} {{ page.avatar }} </em> in <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }}</time>
+    </p>
+  </footer>
+</article>
