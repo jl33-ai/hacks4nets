@@ -52,5 +52,18 @@ permalink: /glossary/
 
 ---
 
-# THE BACKPROPOGATION ALGORITHM
+# ADVERSARIAL ATTACKS
+
+Most adversarial attacks involve: given an input x and any target classification t, it is possible to find a new input x′ that is similar to x but classified as t
+
+# JAILBREAKS
+
+
+---
+
+# MEASURING ROBUSTNESS
+
+---
+
+# TO LEARN THE BACKPROPOGATION ALGORITHM
 

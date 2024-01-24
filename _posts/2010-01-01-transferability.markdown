@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Transferability attacks"
+title:  "Transferability Attacks"
 date:   2010-01-01
 categories: 
 type: "ml"

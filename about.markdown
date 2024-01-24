@@ -4,7 +4,10 @@ title: about
 permalink: /about/
 ---
 
-This site is maintained by justin - email in the footer. 
+This site was created by justin - email in the footer. 
+Site maintainers: 
+- jl33.ai
+- aimible
 
 If you would like to become a contributor, fill out [this form](), or send us an email. 
 
