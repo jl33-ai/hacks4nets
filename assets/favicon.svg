@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.65506272"
-     inkscape:cx="260.28042"
-     inkscape:cy="415.9907"
+     inkscape:zoom="0.057303578"
+     inkscape:cx="-1317.5442"
+     inkscape:cy="13498.284"
      inkscape:window-width="1512"
      inkscape:window-height="945"
      inkscape:window-x="1841"
@@ -69,37 +69,41 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <g
-       id="g3148"
-       inkscape:export-filename="favicon-raw.png"
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.5;stroke-linejoin:miter;paint-order:fill markers stroke;stroke-dasharray:none"
+       id="rect3298"
+       width="109.86225"
+       height="109.86225"
+       x="57.758465"
+       y="53.71941"
+       inkscape:export-filename="favicon.png"
        inkscape:export-xdpi="139.7401"
-       inkscape:export-ydpi="139.7401">
-      <circle
-         style="fill:url(#meshgradient1108);fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linejoin:round;paint-order:fill markers stroke;fill-opacity:1"
-         id="path509"
-         cx="133.45981"
-         cy="93.109032"
-         r="26.096485" />
-      <path
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.00001;stroke-linejoin:miter;paint-order:fill markers stroke"
-         d="m 126.24062,118.57984 -10.34598,29.14145 h 32.53339 l -10.17567,-28.66173"
-         id="path511" />
-      <path
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linejoin:round;paint-order:fill markers stroke"
-         d="M 65.701393,67.199569 109.11027,86.261067"
-         id="path513"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linejoin:round;paint-order:fill markers stroke"
-         d="M 65.701393,93.788582 H 107.24147"
-         id="path515"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linejoin:round;paint-order:fill markers stroke"
-         d="M 65.701393,121.72538 109.59939,101.89372"
-         id="path517"
-         sodipodi:nodetypes="cc" />
-    </g>
+       inkscape:export-ydpi="139.7401" />
+    <circle
+       style="fill:url(#meshgradient1108);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.5;stroke-linejoin:round;paint-order:fill markers stroke;stroke-dasharray:none"
+       id="path509"
+       cx="133.07933"
+       cy="94.392647"
+       r="26.096485" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4.5;stroke-linejoin:miter;paint-order:fill markers stroke;stroke-dasharray:none"
+       d="m 125.86014,119.86345 -10.34598,29.14145 h 32.53339 l -10.17567,-28.66173"
+       id="path511" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4.5;stroke-linejoin:round;paint-order:fill markers stroke;stroke-dasharray:none"
+       d="M 65.320918,68.483184 108.72979,87.544682"
+       id="path513"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4.5;stroke-linejoin:round;paint-order:fill markers stroke;stroke-dasharray:none"
+       d="M 65.320918,95.072197 H 106.86099"
+       id="path515"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4.5;stroke-linejoin:round;paint-order:fill markers stroke;stroke-dasharray:none"
+       d="M 65.320918,123.00899 109.21891,103.17733"
+       id="path517"
+       sodipodi:nodetypes="cc" />
   </g>
   <script
      id="mesh_polyfill"
